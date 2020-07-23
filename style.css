@@ -2,10 +2,16 @@
 
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   padding: 30px;
-  border: 1px dashed red;
   font-family: "Montserrat", sans-serif;
+}
+
+.piano {
+  display: flex;
+  flex-direction: row;
 }
 
 .keys {

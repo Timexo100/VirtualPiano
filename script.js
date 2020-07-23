@@ -1,39 +1,38 @@
 document.addEventListener("keypress", function(e) {
-  console.log(e.code);
   if (e.code === "KeyA") {
-    console.log("A pressed");
+    new Audio("source/A.mp3").play();
   }
   if (e.code === "KeyS") {
-    console.log("S pressed");
+    new Audio("source/S.mp3").play();
   }
   if (e.code === "KeyD") {
-    console.log("D pressed");
+    new Audio("source/D.mp3").play();
   }
   if (e.code === "KeyF") {
-    console.log("F pressed");
+    new Audio("source/F.mp3").play();
   }
   if (e.code === "KeyG") {
-    console.log("G pressed");
+    new Audio("source/G.mp3").play();
   }
   if (e.code === "KeyH") {
-    console.log("H pressed");
+    new Audio("source/H.mp3").play();
   }
   if (e.code === "KeyJ") {
-    console.log("J pressed");
+    new Audio("source/J.mp3").play();
   }
   if (e.code === "KeyW") {
-    console.log("W pressed");
+    new Audio("source/W.mp3").play();
   }
   if (e.code === "KeyE") {
-    console.log("E pressed");
+    new Audio("source/E.mp3").play();
   }
   if (e.code === "KeyT") {
-    console.log("T pressed");
+    new Audio("source/T.mp3").play();
   }
   if (e.code === "KeyY") {
-    console.log("Y pressed");
+    new Audio("source/Y.mp3").play();
   }
   if (e.code === "KeyU") {
-    console.log("U pressed");
+    new Audio("source/U.mp3").play();
   }
 });
